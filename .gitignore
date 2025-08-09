@@ -1,0 +1,10 @@
+# .gitignore
+
+# Arquivos de estado e lock do Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Arquivos de crash
+crash.log
